@@ -290,9 +290,9 @@
 
       var focusedElement = this.element_.querySelector(':focus');
 
-      this.element_.parentElement.insertBefore(container, this.element_);
-      this.element_.parentElement.removeChild(this.element_);
-      container.appendChild(this.element_);
+      // this.element_.parentElement.insertBefore(container, this.element_);
+      // this.element_.parentElement.removeChild(this.element_);
+      // container.appendChild(this.element_);
 
       if (focusedElement) {
         focusedElement.focus();
